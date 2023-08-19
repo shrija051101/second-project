@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+
+  body, h1, h2, h3, ul, li
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #2d2020;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inconsolata', sans-serif;
+}
+nav.sticky ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+nav.sticky ul li {
+    margin-right: 20px;
+}
+nav.sticky a {
+    color: white;
+    text-decoration: none;
+}
+.heading{
+    padding: 0px;
+    background-color: #0b3f69;
+    color: white;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Trirong', sans-serif;
+}
+.nested-table{
+    background-color: #b9b7b7;
+}
+table, th, td {
+    border: 2px solid #615e5e;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+section#registration {
+    background-color: #c6c4c4;
+    padding: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+}
+input[type="submit"] {
+    background-color: #22142a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
